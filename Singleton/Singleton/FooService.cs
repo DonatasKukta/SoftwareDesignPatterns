@@ -1,6 +1,0 @@
-﻿namespace Singleton
-{
-    class FooService
-    {
-    }
-}
