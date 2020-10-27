@@ -1,6 +1,12 @@
 ﻿namespace Singleton.Logging
 {
-    class InjectedLogger
+    using System;
+
+    class InjectedLogger : ILogger
     {
+        public void Log(string message)
+        {
+            Console.WriteLine(message);
+        }
     }
 }

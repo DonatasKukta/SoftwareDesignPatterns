@@ -1,6 +1,7 @@
 ﻿namespace Singleton.Logging
 {
-    interface ILogger
+    public interface ILogger
     {
+        void Log(string message);
     }
 }
